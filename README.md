@@ -82,21 +82,14 @@ AI-Career-Mentor/
 
 
 <h2>5. How It Works:</h2>
-          - Upload Resume: User uploads a resume in PDF format through the Streamlit interface.
-          - Resume Parsing: The application extracts the text from the uploaded PDF using PyMuPDF.
-          - Information Extraction: Email address, phone number, and technical skills are identified using regular expressions(re) and a predefined skills database.
-          - Resume Evaluation: The resume is analyzed for essential sections such as Education, Skills, Projects, Experience, and Certifications to calculate a resume score and generate improvement suggestions.
-          - Career Recommendation: Based on the extracted skills, the application recommends the most suitable career path.
-          - Skill Gap Analysis: The detected skills are compared with the required skills for the recommended career to identify missing competencies.
-          - Learning Roadmap: A personalized week-by-week learning roadmap is generated to help users acquire the missing skills and prepare for their target career.
-          - Results Dashboard:
-                  - Resume Score
-                  - Recommended Career
-                  - Skills Detected
-                  - Missing Skills
-                  - Resume Suggestions
-                  - Personalized Learning Roadmap
-                  - Extracted Resume Text
+- Upload Resume: User uploads a resume in PDF format through the Streamlit interface.
+- Resume Parsing: The application extracts the text from the uploaded PDF using PyMuPDF.
+- Information Extraction: Email address, phone number, and technical skills are identified using regular expressions(re) and a predefined skills database.
+- Resume Evaluation: The resume is analyzed for essential sections such as Education, Skills, Projects, Experience, and Certifications to calculate a resume score and generate improvement suggestions.
+- Career Recommendation: Based on the extracted skills, the application recommends the most suitable career path.
+- Skill Gap Analysis: The detected skills are compared with the required skills for the recommended career to identify missing competencies.
+- Learning Roadmap: A personalized week-by-week learning roadmap is generated to help users acquire the missing skills and prepare for their target career.
+- Results Dashboard: Resume Score, Recommended Career, Skills Detected, Missing Skills, Resume Suggestions, Personalized Learning Roadmap, Extracted Resume Text
 
 <h2>6. Future Improvements</h2>
 - Add ATS compatibility checking.
