@@ -33,10 +33,8 @@ AI-Career-Mentor/
 ├── requirements.txt          
 ├── README.md                 
 │
-├── assets/
-│   ├── background.png        
-│   └── logo.png              
-│
+├── assets/ --> background.png | logo.png
+│         
 ├── src/
 │   ├── parser.py              
 │   ├── extractor.py          
