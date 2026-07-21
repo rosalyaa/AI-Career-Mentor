@@ -28,28 +28,62 @@ AI Career Mentor is a web-based resume analysis application built using Python a
 
 
 AI-Career-Mentor/
-│
-├── app.py                    
-├── requirements.txt          
-├── README.md                 
-│
-├── assets/ --> background.png | logo.png
-│ 
-├── src/ --> parser.py, extractor.py, scorer.py, resume_score.py, career.py, skill_gap.py, roadmap.py, analyzer.py, report.py, chart.py                           
-│
-├── data/ --> skills.csv      
-│        
-├── sample_resume/ --> Resume.pdf           
-│
-├── images/ --> screenshots/
-│             
-├── notebooks/ --> experimentation.ipynb
-│
-├── models/                  
-│
-├── reports/                  
-│
-└── .gitignore                
+
+1. app.py
+   <br>
+2. requirements.txt
+   <br>
+3. README.md
+   <br>
+4. assets/
+   <br>
+     (a) background.png
+   <br>
+     (b) logo.png
+   <br>
+6. src/
+   <br>
+     (a) parser.py
+   <br>
+     (b) extractor.py
+   <br>
+     (c) scorer.py
+   <br>
+     (d) resume_score.py
+   <br>
+     (e) career.py
+   <br>
+     (f) skill_gap.py
+   <br>
+     (g) roadmap.py
+   <br>
+     (h) analyzer.py
+   <br>
+     (i) report.py
+   <br>
+     (j) chart.py
+   <br>                         
+7. data/
+   <br>
+     (a) skills.csv
+   <br>    
+8. sample_resume/
+   <br>
+     (a) Resume.pdf
+   <br>        
+9. images/
+    <br>
+     (a) screenshots/
+   <br>
+10. notebooks/
+    <br>
+     (a) experimentation.ipynb
+    <br>
+11. models/                  
+<br>
+12. reports/                  
+<br>
+13. .gitignore                
 
 <h2>4. Installation:</h2>
 
