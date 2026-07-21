@@ -2,7 +2,9 @@
 
 An AI-powered resume analyzer built using Python and Streamlit.
 
-<h2>Features</h2>
+<h2>Demo:</h2> http://localhost:8502
+
+<h2>Features:</h2>
 
 - Resume Upload
 - Resume Score
@@ -11,7 +13,7 @@ An AI-powered resume analyzer built using Python and Streamlit.
 - Skill Gap Analysis
 - Learning Roadmap
 
-<h2>Technologies</h2>
+<h2>Technologies:</h2>
 
 - Python
 - Streamlit
