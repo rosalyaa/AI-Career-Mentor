@@ -41,6 +41,8 @@ AI-Career-Mentor/
    <br>
      (b) logo.png
    <br>
+     (c) style.css
+   <br>
 6. src/
    <br>
      (a) parser.py
@@ -56,13 +58,7 @@ AI-Career-Mentor/
      (f) skill_gap.py
    <br>
      (g) roadmap.py
-   <br>
-     (h) analyzer.py
-   <br>
-     (i) report.py
-   <br>
-     (j) chart.py
-   <br>                         
+   <br>                       
 7. data/
    <br>
      (a) skills.csv
@@ -118,10 +114,15 @@ AI-Career-Mentor/
 
 <h2>6. Future Improvements</h2>
 - Add ATS compatibility checking.
+<br>
 - Support DOCX and image-based resumes.
+<br>
 - Recommend online courses based on skill gaps.
+<br>
 - Generate altered resumes and cover letters.
+<br>
 - Integrate real-time job recommendations from job portals.
+<br>
 - Deploy the application on a cloud platform for public access.
 
 
