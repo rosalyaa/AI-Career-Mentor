@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+html,
+body,
+[class*="css"] {
+    font-family: 'Poppins', sans-serif;
+}
+#MainMenu {
+    visibility: hidden;
+}
+footer {
+    visibility: hidden;
+}
+header {
+    visibility: hidden;
+}
+.stApp {
+    background: #1c212b;
+}
+.hero {
+    background: linear-gradient(135deg,#2563eb,#7c3aed);
+    padding:40px;
+    border-radius:20px;
+    color:white;
+    text-align:center;
+    margin-bottom:30px;
+    box-shadow:0px 10px 30px rgba(0,0,0,.15);
+}
+.hero h1{
+    font-size:42px;
+    margin-bottom:10px;
+}
+.hero p{
+    font-size:18px;
+    opacity:.9;
+}
+.card{
+    background:white;
+    padding:25px;
+    border-radius:18px;
+    box-shadow:0 8px 20px rgba(0,0,0,.08);
+    transition:.3s;
+    margin-bottom:20px;
+}
+.card:hover{
+    transform:translateY(-5px);
+}
+.card-title{
+    font-size:18px;
+    font-weight:600;
+    color:#777;
+}
+.card-value{
+    font-size:34px;
+    font-weight:700;
+    color:#2563eb;
+    margin-top:10px;
+}
+.section-title{
+    font-size:30px;
+    font-weight:700;
+    color:#1f2937;
+    margin-top:40px;
+    margin-bottom:15px;
+}
+.badge{
+display:inline-block;
+background:#2563eb;
+color:white;
+padding:8px 16px;
+border-radius:30px;
+margin:6px;
+font-size:14px;
+font-weight:500;
+}
+.badge-red{
+display:inline-block;
+background:#ef4444;
+color:white;
+padding:8px 16px;
+border-radius:30px;
+margin:6px;
+font-size:14px;
+}
+.career{
+background:linear-gradient(135deg,#06b6d4,#3b82f6);
+padding:30px;
+border-radius:18px;
+color:white;
+font-size:30px;
+font-weight:bold;
+text-align:center;
+margin-bottom:25px;
+}
+.score{
+font-size:70px;
+font-weight:800;
+text-align:center;
+color:#2563eb;
+}
+.suggestion{
+background:#fff8db;
+padding:18px;
+border-left:6px solid orange;
+border-radius:10px;
+margin-bottom:12px;
+}
+.resume{
+background:white;
+padding:20px;
+border-radius:15px;
+box-shadow:0 5px 15px rgba(59, 55, 55, 0.08);
+}
+.timeline{
+border-left:5px solid #2563eb;
+margin-left:20px;
+padding-left:20px;
+}
+.timeline-item{
+margin-bottom:20px;
+font-size:17px;
+}
+.footer{
+text-align:center;
+margin-top:60px;
+color:rgb(75, 71, 71);
+font-size:14px;
+}
