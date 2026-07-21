@@ -4,7 +4,7 @@ An AI-powered resume analyzer built using Python and Streamlit.
 
 <h2>Demo:</h2> 
 
-[DEMO](http://localhost:8502)
+[http://localhost:8502](http://localhost:8502)
 
 <h2>Features:</h2>
 
