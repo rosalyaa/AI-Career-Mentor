@@ -69,34 +69,34 @@ AI-Career-Mentor/
 
 <h2>4. Installation:</h2>
 
-Clone the repository: git clone https://github.com/rosalyaa/AI-Career-Mentor.git
-Navigate to the project directory: cd AI-Career-Mentor
-Create a virtual environment: python -m venv .venv
-Activate it
+- Clone the repository: git clone https://github.com/rosalyaa/AI-Career-Mentor.git
+- Navigate to the project directory: cd AI-Career-Mentor
+- Create a virtual environment: python -m venv .venv
+- Activate it
 (macOS/Linux): source .venv/bin/activate 
 (Windows): .venv\Scripts\activate
-Install dependencies: pip install -r requirements.txt
-Launch the application:streamlit run app.py
-Open your web browser and visit: http://localhost:8502
+- Install dependencies: pip install -r requirements.txt
+- Launch the application:streamlit run app.py
+- Open your web browser and visit: http://localhost:8502
 
 
 
 <h2>5. How It Works:</h2>
-          (a) Upload Resume: User uploads a resume in PDF format through the Streamlit interface.
-          (b) Resume Parsing: The application extracts the text from the uploaded PDF using PyMuPDF.
-          (c) Information Extraction: Email address, phone number, and technical skills are identified using regular expressions(re) and a predefined skills database.
-          (d) Resume Evaluation: The resume is analyzed for essential sections such as Education, Skills, Projects, Experience, and Certifications to calculate a resume score and generate improvement suggestions.
-          (e) Career Recommendation: Based on the extracted skills, the application recommends the most suitable career path.
-          (f) Skill Gap Analysis: The detected skills are compared with the required skills for the recommended career to identify missing competencies.
-          (g) Learning Roadmap: A personalized week-by-week learning roadmap is generated to help users acquire the missing skills and prepare for their target career.
-          (h) Results Dashboard
-                  * Resume Score
-                  * Recommended Career
-                  * Skills Detected
-                  * Missing Skills
-                  * Resume Suggestions
-                  * Personalized Learning Roadmap
-                  * Extracted Resume Text
+          - Upload Resume: User uploads a resume in PDF format through the Streamlit interface.
+          - Resume Parsing: The application extracts the text from the uploaded PDF using PyMuPDF.
+          - Information Extraction: Email address, phone number, and technical skills are identified using regular expressions(re) and a predefined skills database.
+          - Resume Evaluation: The resume is analyzed for essential sections such as Education, Skills, Projects, Experience, and Certifications to calculate a resume score and generate improvement suggestions.
+          - Career Recommendation: Based on the extracted skills, the application recommends the most suitable career path.
+          - Skill Gap Analysis: The detected skills are compared with the required skills for the recommended career to identify missing competencies.
+          - Learning Roadmap: A personalized week-by-week learning roadmap is generated to help users acquire the missing skills and prepare for their target career.
+          - Results Dashboard:
+                  - Resume Score
+                  - Recommended Career
+                  - Skills Detected
+                  - Missing Skills
+                  - Resume Suggestions
+                  - Personalized Learning Roadmap
+                  - Extracted Resume Text
 
 <h2>6. Future Improvements</h2>
 - Add ATS compatibility checking.
