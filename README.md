@@ -34,30 +34,16 @@ AI-Career-Mentor/
 ├── README.md                 
 │
 ├── assets/ --> background.png | logo.png
-│         
-├── src/
-│   ├── parser.py              
-│   ├── extractor.py          
-│   ├── scorer.py             
-│   ├── resume_score.py       
-│   ├── career.py             
-│   ├── skill_gap.py         
-│   ├── roadmap.py            
-│   ├── analyzer.py          
-│   ├── report.py             
-│   └── chart.py           
+│ 
+├── src/ --> parser.py, extractor.py, scorer.py, resume_score.py, career.py, skill_gap.py, roadmap.py, analyzer.py, report.py, chart.py                           
 │
-├── data/
-│   └── skills.csv           
+├── data/ --> skills.csv      
+│        
+├── sample_resume/ --> Resume.pdf           
 │
-├── sample_resume/
-│   └── Resume.pdf            
-│
-├── images/
-│   └── screenshots/          
-│
-├── notebooks/
-│   └── experimentation.ipynb  
+├── images/ --> screenshots/
+│             
+├── notebooks/ --> experimentation.ipynb
 │
 ├── models/                  
 │
